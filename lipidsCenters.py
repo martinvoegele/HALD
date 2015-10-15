@@ -1,3 +1,7 @@
+import numpy as np
+import scipy as sp
+import MDAnalysis as mda
+
 #selecting membrane, lipid tail and heads
 def membrane_mass_centers(universe, lipidresiduename, separationatomname):
     #select the mambrane:
