@@ -17,7 +17,8 @@ def dist_point_line(p,a,n):
     
     return np.linalg.norm(distance)
 
-def Tilt(calpha):
+
+def tilt(calpha):
     """
     Purpose:
     calculate the angle between the principal axis of one alpha
@@ -32,6 +33,6 @@ def Tilt(calpha):
     zaxis=np.array([0,0,1])
     
     """angle"""
-    cosang = np.dot(P1, zaxis)d
+    cosang = np.dot(P1, zaxis)
     sinang = la.norm(np.cross(P1, zaxis))
     return np.arctan2(sinang, cosang)
