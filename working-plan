@@ -1,0 +1,15 @@
+What we have:
+- function for calculating principal axes (.principal_Axes())
+- function for density
+
+What we want to do:
+ - Load the trajectory
+ - Select the helix and calculate princ. axis
+ - Calculate distances with respect to this axis
+ - Calculate 2D coordinates wrt this axis
+ - Bin the distances/Coordinates
+ - Create a histogram/density plot
+ 
+
+Possibly useful stuff:
+- Gromax gmx bundle: http://manual.gromacs.org/programs/gmx-bundle.html
